@@ -1,7 +1,6 @@
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -27,6 +26,7 @@ nav .nav-links {
   width: 35%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: beige;
 }
 
 nav .burger {
