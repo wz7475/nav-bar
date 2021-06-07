@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    min-height: 8vh;
+
+    .logo{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-left: 5%;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .nav-links{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+        margin-right: 5%;
+    }
+
+    .burger{
+        display: none;
+
+        div{
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px;
+        }
+        
+    }
+}
