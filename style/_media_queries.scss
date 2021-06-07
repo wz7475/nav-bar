@@ -6,3 +6,35 @@
     }
     
 }
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow: hidden;
+    }
+
+    nav{
+        .nav-links{
+            position: absolute;
+            right: 0px;
+            height: 92vh;
+            top: 8vh;
+            background-color: #000;
+            margin-right: 0;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            transform: translateX(100%);
+
+            li{
+                opacity: 0;
+            }
+        }
+
+        .burger{
+            display: block;
+            margin-right: 5%;
+            cursor: pointer;
+        }
+    }
+    
+} 

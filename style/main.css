@@ -52,6 +52,13 @@ nav .nav-links {
   margin-right: 5%;
 }
 
+nav .nav-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
 nav .burger {
   display: none;
 }
@@ -66,6 +73,39 @@ nav .burger div {
 @media only screen and (max-width: 1024px) {
   nav .nav-links {
     width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  nav .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #000;
+    margin-right: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  nav .nav-links li {
+    opacity: 0;
+  }
+  nav .burger {
+    display: block;
+    margin-right: 5%;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=main.css.map */

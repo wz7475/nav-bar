@@ -22,6 +22,11 @@ nav{
         margin-right: 5%;
     }
 
+    .nav-active{
+        transform: translateX(0%);
+        transition: 0.5s ease-in;
+    }
+
     .burger{
         display: none;
 
