@@ -52,12 +52,6 @@ nav .nav-links {
   margin-right: 5%;
 }
 
-nav .nav-active {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-  background-color: #fff;
-}
-
 nav .burger {
   display: none;
 }
@@ -98,11 +92,17 @@ nav .burger div {
     width: 50%;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
-    -webkit-transition: 0.5s ease-in;
-    transition: 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
   }
   nav .nav-links li {
     opacity: 0;
+  }
+  nav .nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
   nav .burger {
     display: block;
