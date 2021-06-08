@@ -55,8 +55,7 @@ nav .nav-links {
 nav .nav-active {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
-  -webkit-transition: 0.5s ease-in;
-  transition: 0.5s ease-in;
+  background-color: #fff;
 }
 
 nav .burger {
@@ -96,8 +95,11 @@ nav .burger div {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 50%;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
   }
   nav .nav-links li {
     opacity: 0;
