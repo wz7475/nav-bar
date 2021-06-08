@@ -54,6 +54,8 @@ nav .nav-links {
 
 nav .burger {
   display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 nav .burger div {
@@ -135,5 +137,19 @@ nav .burger div {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+
+.toggle .line1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+          transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px);
+          transform: rotate(45deg) translate(-5px, -6px);
 }
 /*# sourceMappingURL=main.css.map */

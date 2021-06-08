@@ -25,6 +25,7 @@ nav{
     //icon not displayed in deskopt (default) mode
     .burger{
         display: none;
+        transition: all 0.3s ease;
 
         div{
             width: 25px;
