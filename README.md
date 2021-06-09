@@ -1,6 +1,6 @@
 # Animated responsive navigation bar
 
-wz7475.github.io/nav-bar/
+https://wz7475.github.io/nav-bar/
 
 written in: vanilla JS and SCSS
 
