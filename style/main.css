@@ -65,6 +65,29 @@ nav .burger div {
   margin: 5px;
 }
 
+main {
+  display: -ms-grid;
+  display: grid;
+  width: 90%;
+  margin: auto;
+  background-color: aqua;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+main div {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+main div img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 1024px) {
   nav .nav-links {
     width: 60%;
