@@ -1,4 +1,7 @@
 main{
+  position: absolute;
+  top: 100px;
+  left: 5%;
   display: grid;
   width: 90%;
   margin: auto;
@@ -10,6 +13,8 @@ main{
   div{
     img{
       width: 100%;
+      border-radius: 10px;
+      border: 2px solid #000;
     }
 
     display: grid;
